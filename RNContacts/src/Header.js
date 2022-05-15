@@ -6,7 +6,7 @@ const Header = props => {
     <View style={styles.view}>
       <Text style={styles.text}>React Native Tutorial</Text>
     </View>
-  );;
+  );
 };
 
 const styles = StyleSheet.create({
@@ -20,8 +20,8 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 25,
     fontWeight: 'bold',
-    color: '#ffffff',,
-  },,
+    color: '#ffffff',
+  },
 });
 
 export default Header;

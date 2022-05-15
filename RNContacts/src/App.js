@@ -73,25 +73,12 @@ const App = () => {
         color={'#ff00ff'}
         style={{margin: 10}}
       />
-      {/* <Pressable
-        onPress={onPressHandler}
-        hitSlop={{ top: 10, bottom: 10, right: 10, left: 10 }}
-        android_ripple={{ color: '#00f' }}
-        style={({ pressed }) => [
-          { backgroundColor: pressed ? '#dddddd' : '#00ff00' },
-          styles.button
-        ]}
-      >
-        <Text style={styles.text}>
-          {submitted ? 'Clear' : 'Submit'}
-        </Text>
-      </Pressable> */}
       {submitted ? (
         <View style={styles.body}>
           <Text style={styles.text}>You are registered as {name}</Text>
           <Image
             style={styles.image}
-            source={require('../assets/done.png')}
+            source={'assets/done.png'}
             resizeMode="stretch"
           />
         </View>
